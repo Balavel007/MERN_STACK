@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOA</title>
+    <style>
+        .but{
+            padding: 50px;
+            margin: 2px;
+            border: 3px solid black;
+            margin: 3px;
+            
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="full">
+    <button type="button" class="but" onclick="cli(this)"></button>
+    <button type="button" class="but" onclick="cli(this)"></button>
+    <button type="button" class="but" onclick="cli(this)"></button><br>
+    <button type="button" class="but" onclick="cli(this)"></button>
+    <button type="button" class="but" onclick="cli(this)"></button>
+    <button type="button" class="but" onclick="cli(this)"></button><br>
+    <button type="button" class="but" onclick="cli(this)"></button>
+    <button type="button" class="but" onclick="cli(this)"></button>
+    <button type="button" class="but" onclick="cli(this)"></button>
+</div>
+<script>
+    var val="x"
+    function cli(obj){
+        if(obj.innerHTML==""){
+            if(val="x"){
+               obj.innerHTML=val;
+               val="0"; 
+            }
+            else{
+                obj.innerHTML=val;
+                val="x";
+            }
+        }
+    }
+</script>
+</body>
+</html>

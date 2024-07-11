@@ -1,0 +1,31 @@
+.cont{display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 4 , 1fr;
+    grid-template-rows: 80px 1fr 1fr 16px ;
+    grid-area: 
+    "n n n n"
+    "sb m m m"
+    "sb c1 c2 c3"
+    " f f f f";
+    grid-template: repeat("n n n n"
+    "sb m m m"
+    "sb c1 c2 c3"
+    " f f f f");
+
+}
+#box1{background-color: rgb(141, 233, 233);
+    grid-area: n;
+}
+#box2{background-color: rgb(250, 98, 10);
+grid-area: sb;}
+#box3{background-color: rgb(16, 236, 163);
+grid-area: m;}
+#box4{background-color: blue;
+grid-area: c1;}
+#box5{background-color: yellowgreen;
+grid-area: c2;}
+#box6{background-color: violet;
+grid-area: c3;}
+#box7{background-color: rgb(14, 13, 13);
+grid-area: f;}

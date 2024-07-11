@@ -1,0 +1,73 @@
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEIGHT & WEIGHT CALCI</title>
+    <h1>BMI CALCULATOR </h1>
+    <br><br><br>
+    <style>
+        
+        h1{
+            border: 3px solid green;
+            background-color: black;
+            outline: 3px solid yellow;
+            color: white;
+            text-align: center;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 3px solid rgb(100, 240, 7);
+            background-color: rgb(27, 27, 25);
+            align-items: center;
+
+        }
+        input{
+            font-size: large;
+            position: relative;
+            left: px;
+            top: 50px;
+        }
+        button{
+            position: relative;
+            left: px;
+            top: 70px;
+            background-color: yellow;
+            border: 2px solid blanchedalmond;
+
+        }
+        button:hover{
+            width: 50%;
+            height: 50px;
+            position: relative;
+            
+            top: 70px;
+            background-color: rgb(81, 214, 76);
+            border: 2px solid blanchedalmond;
+
+        }
+        h2{
+            position: relative;
+            left:px ;
+        }
+       
+    </style>
+</head>
+<body>
+    <center>
+    <div class="box">
+    <input type="text" id="h" placeholder="ENTER YOUR (CM)">
+    <br><br><br>
+    <input type="text" id="w" placeholder="ENTER YOUR (KG)">
+    <br><br><br>
+    <button type="button" onclick="bmi()"><b>CALCULATE BMI</b></button>
+    <br>
+</div>
+<h2 id="avg">YOUR BMI IS 0</h2>
+</center>
+<br><br><br>
+<hr>
+<script src="/mini calci/bmi/bmi.js"></script>
+</body>
+</html>

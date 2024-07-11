@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI CALCI</title>
+    <style>
+        input{
+            font-size: x-large;
+            border: 3px solid black;
+            border-style: calc(add,sub,div,mul);
+        position: relative;
+        top: 150px;    
+        }
+        button{
+            font-size: xx-large;
+            background-color: green;
+            border: 4px solid black;
+            padding: 20px;
+            position: relative;
+            top: 250px;
+            right: 430px;
+
+        }
+        button:hover{
+            font-size: xx-large;
+            background-color: rgb(243, 182, 14);
+            border: 4px solid black;
+            padding: 20px;
+            position: relative;
+            top: 250px;
+            right: 430px;
+
+        }
+        h1{
+            position: relative;
+            right: 130px;
+            font-size: xxx-large;
+            font-style: unset;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+    <center>   
+    <input type="text" id="num_1">
+    <input type="text" id="num_2">
+    <button type="button" onclick="add()"><b>+</b></button>
+    <button type="button" onclick="sub()"><b>-</b></button>
+    <button type="button" onclick="mul()"><b>*</b></button>
+    <button type="button" onclick="div()"><b>/</b></button>
+    <h1 id="ans">0</h1>
+    </center>
+
+    <script src="/mini calci/mini.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        h1{
+            text-align: center;
+            color: red;
+            border: 2px solid yellow;
+            background-color: rgb(17, 17, 16);
+           
+        }
+        button{
+            width: 120px;
+            height: 50px;
+            border: 3px solid black;
+            border-radius: 50px;
+            background-color: rgb(11, 226, 11);
+            position: relative;
+            left: 125px;
+            bottom: 35px;
+        }
+        button:hover{
+            width: 130px;
+            height: 60px;
+            border: 3px solid black;
+            border-radius: 50px;
+            
+            background-color: rgb(248, 14, 151);
+        }
+        div{
+            width: 30%;
+            height: 55%;
+            border: 5px solid rgb(243, 12, 12);
+            position: relative;
+            left: 450px;
+            background-color: rgba(37, 136, 128, 0.308);
+            border-radius: 15px;
+            box-shadow: 10px;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        label{ 
+            align-items: center;
+            font-size: larger;
+            position: relative;
+left: 20%;
+bottom: 36px;
+
+
+
+        }
+        input{
+position: relative;
+left: 20%;
+box-sizing: 150px;
+padding: 20 150;
+size: 180px;
+bottom: 36px;
+font-size: larger;
+
+
+        }
+        body{
+background-image: url("images/images\ \(3\).jpeg");
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> FORM </h1>
+    <div>
+        <form>
+    
+    <br><br><br>
+    <label for="text" >NAME</label><br><br>
+    <input type="text" placeholder="BALA" required><br><br>
+    <label for="email" >EMAIL</label><br><br>
+    <input type="email" placeholder="@gmail.com" required><br><br>
+    <label for="password">PASSWORD</label><br><br>
+    <input type="password" placeholder="......" required><br><br>
+    <label for="birth">BIRTH DATE</label><br><br>
+    <input type="date" placeholder="23/09/2004" required><br><br>
+    <label for="gender">GENDER</label><br><br>
+    <input type="radio" name="male" required>
+    <label for="male">MALE</label><br>
+    
+     
+    <input type="radio" name="male" required>
+    <label for="female">FEMALE</label><br><br>
+    
+    <label for="language">LANGUAGE</label><br><br> 
+    <input type="checkbox" required>
+    <label for="tamil">TAMIL</label><br>
+    
+    
+    
+    <input type="checkbox" required>
+    <label for="english">ENGLISH</label><br>
+    
+    <input type="checkbox" required>
+    <label for="malayalam">MALAYALAM</label><br><br><br>
+
+    <button type="submit"><b>SUBMIT</b></button>
+</form>   
+</div>
+
+</body>
+</html>
